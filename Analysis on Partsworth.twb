@@ -1,0 +1,1339 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0308.0326                               -->
+<workbook original-version='18.1' source-build='2024.1.1 (20241.24.0308.0326)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='partworths' inline='true' name='federated.0q0w2ls0sjvh6517kpwbj07cerpl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='partworths' name='textscan.0gvzyqg08jseth1cs5rt9075x7ws'>
+            <connection class='textscan' directory='C:/Users/Uzair Khan/Downloads' filename='partworths.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0gvzyqg08jseth1cs5rt9075x7ws' name='partworths.csv' table='[partworths#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='intercept' ordinal='0' />
+            <column datatype='integer' name='0% CO2 reduction' ordinal='1' />
+            <column datatype='real' name='30% CO2 reduction' ordinal='2' />
+            <column datatype='real' name='50% CO2 reduction' ordinal='3' />
+            <column datatype='integer' name='14 days' ordinal='4' />
+            <column datatype='real' name='21 days' ordinal='5' />
+            <column datatype='real' name='30 days' ordinal='6' />
+            <column datatype='integer' name='5-year warranty' ordinal='7' />
+            <column datatype='real' name='5-year warranty &amp; free maintenance' ordinal='8' />
+            <column datatype='real' name='5-year warranty, free maintenance and installation, &amp; upgradeability' ordinal='9' />
+            <column datatype='integer' name='1000 GBP' ordinal='10' />
+            <column datatype='real' name='1200 GBP' ordinal='11' />
+            <column datatype='real' name='1500 GBP' ordinal='12' />
+            <column datatype='integer' name='Market average' ordinal='13' />
+            <column datatype='real' name='A bit higher than market average' ordinal='14' />
+            <column datatype='integer' name='Not very proficient and poor communication' ordinal='15' />
+            <column datatype='real' name='Very proficient and have good communication skills' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0gvzyqg08jseth1cs5rt9075x7ws' name='partworths.csv' table='[partworths#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='intercept' ordinal='0' />
+            <column datatype='integer' name='0% CO2 reduction' ordinal='1' />
+            <column datatype='real' name='30% CO2 reduction' ordinal='2' />
+            <column datatype='real' name='50% CO2 reduction' ordinal='3' />
+            <column datatype='integer' name='14 days' ordinal='4' />
+            <column datatype='real' name='21 days' ordinal='5' />
+            <column datatype='real' name='30 days' ordinal='6' />
+            <column datatype='integer' name='5-year warranty' ordinal='7' />
+            <column datatype='real' name='5-year warranty &amp; free maintenance' ordinal='8' />
+            <column datatype='real' name='5-year warranty, free maintenance and installation, &amp; upgradeability' ordinal='9' />
+            <column datatype='integer' name='1000 GBP' ordinal='10' />
+            <column datatype='real' name='1200 GBP' ordinal='11' />
+            <column datatype='real' name='1500 GBP' ordinal='12' />
+            <column datatype='integer' name='Market average' ordinal='13' />
+            <column datatype='real' name='A bit higher than market average' ordinal='14' />
+            <column datatype='integer' name='Not very proficient and poor communication' ordinal='15' />
+            <column datatype='real' name='Very proficient and have good communication skills' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>intercept</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[intercept]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>intercept</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>0% CO2 reduction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[0% CO2 reduction]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>0% CO2 reduction</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>30% CO2 reduction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[30% CO2 reduction]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>30% CO2 reduction</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>50% CO2 reduction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[50% CO2 reduction]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>50% CO2 reduction</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>14 days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[14 days]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>14 days</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>21 days</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[21 days]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>21 days</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>30 days</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[30 days]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>30 days</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5-year warranty</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5-year warranty]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>5-year warranty</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5-year warranty &amp; free maintenance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[5-year warranty &amp; free maintenance]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>5-year warranty &amp; free maintenance</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5-year warranty, free maintenance and installation, &amp; upgradeability</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[5-year warranty, free maintenance and installation, &amp; upgradeability]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>5-year warranty, free maintenance and installation, &amp; upgradeability</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1000 GBP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1000 GBP]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>1000 GBP</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1200 GBP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1200 GBP]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>1200 GBP</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1500 GBP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1500 GBP]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>1500 GBP</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Market average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Market average]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>Market average</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A bit higher than market average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[A bit higher than market average]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>A bit higher than market average</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Not very proficient and poor communication</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Not very proficient and poor communication]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>Not very proficient and poor communication</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Very proficient and have good communication skills</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Very proficient and have good communication skills]</local-name>
+            <parent-name>[partworths.csv]</parent-name>
+            <remote-alias>Very proficient and have good communication skills</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='1000 Gbp' datatype='integer' name='[1000 GBP]' role='measure' type='quantitative' />
+      <column caption='1200 Gbp' datatype='real' name='[1200 GBP]' role='measure' type='quantitative' />
+      <column caption='14 Days' datatype='integer' name='[14 days]' role='measure' type='quantitative' />
+      <column caption='1500 Gbp' datatype='real' name='[1500 GBP]' role='measure' type='quantitative' />
+      <column caption='21 Days' datatype='real' name='[21 days]' role='measure' type='quantitative' />
+      <column caption='30 Days' datatype='real' name='[30 days]' role='measure' type='quantitative' />
+      <column caption='5-Year Warranty &amp; Free Maintenance' datatype='real' name='[5-year warranty &amp; free maintenance]' role='measure' type='quantitative' />
+      <column caption='5-Year Warranty, Free Maintenance And Installation, &amp; Upgradeability' datatype='real' name='[5-year warranty, free maintenance and installation, &amp; upgradeability]' role='measure' type='quantitative' />
+      <column caption='5-Year Warranty' datatype='integer' name='[5-year warranty]' role='measure' type='quantitative' />
+      <column caption='Environment' datatype='real' name='[Calculation_438538025583271936]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([0% CO2 reduction], MAX([30% CO2 reduction],[50% CO2 reduction])) - MIN([0% CO2 reduction],MIN([30% CO2 reduction], [50% CO2 reduction]))' />
+      </column>
+      <column caption='Delivery Time' datatype='real' name='[Calculation_438538025584668673]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([14 days], MAX([21 days],[30 days])) - MIN([14 days],MIN([21 days],[30 days]))' />
+      </column>
+      <column caption='Service Level' datatype='real' name='[Calculation_777433897548447744]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([5-year warranty], MAX([5-year warranty &amp; free maintenance],[5-year warranty, free maintenance and installation, &amp; upgradeability])) - MIN([5-year warranty],MIN([5-year warranty &amp; free maintenance],[5-year warranty, free maintenance and installation, &amp; upgradeability]))' />
+      </column>
+      <column caption='Price' datatype='real' name='[Calculation_777433897548791809]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([1000 GBP], MAX([1200 GBP],[1500 GBP])) - MIN([1000 GBP],MIN([1200 GBP],[1500 GBP]))' />
+      </column>
+      <column caption='Quality of Materials' datatype='real' name='[Calculation_777433897549086722]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([Market average], [A bit higher than market average]) - MIN([Market average], [A bit higher than market average])' />
+      </column>
+      <column caption='Market Proficiency' datatype='real' name='[Calculation_777433897549393923]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([Not very proficient and poor communication], [Very proficient and have good communication skills]) - MIN([Not very proficient and poor communication], [Very proficient and have good communication skills])' />
+      </column>
+      <column caption='Environment %' datatype='real' name='[Calculation_777433897551224836]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Calculation_438538025583271936])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+ AVG([Calculation_777433897549393923]))' />
+      </column>
+      <column caption='Delivery Time %' datatype='real' name='[Calculation_777433897551855621]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Calculation_438538025584668673])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+      </column>
+      <column caption='Service Level %' datatype='real' name='[Calculation_777433897552023558]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Calculation_777433897548447744])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+      </column>
+      <column caption='Price %' datatype='real' name='[Calculation_777433897552224263]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Calculation_777433897548791809])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+      </column>
+      <column caption='Quality of Materials %' datatype='real' name='[Calculation_777433897552412680]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Calculation_777433897549086722])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+      </column>
+      <column caption='Market Proficiency %' datatype='real' name='[Calculation_777433897552617481]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Calculation_777433897549393923])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+      </column>
+      <column caption='Utility Change by $1' datatype='real' name='[Calculation_777433897554022410]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='500/(Avg([1000 GBP]) - Avg([1500 GBP]))' />
+      </column>
+      <column caption='WTP – 30%' datatype='real' name='[Calculation_777433897556099083]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([30% CO2 reduction])*[Calculation_777433897554022410]' />
+      </column>
+      <column caption='WTP - 50%' datatype='real' name='[Calculation_777433897556217868]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([50% CO2 reduction])*[Calculation_777433897554022410]' />
+      </column>
+      <column caption='WTP - 21' datatype='real' name='[Calculation_777433897556357133]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([21 days])*[Calculation_777433897554022410]' />
+      </column>
+      <column caption='WTP - 30' datatype='real' name='[Calculation_777433897556504590]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([30 days])*[Calculation_777433897554022410]' />
+      </column>
+      <column caption='WTP - Warranty and Maintenance' datatype='real' name='[Calculation_777433897556623375]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([5-year warranty &amp; free maintenance])*[Calculation_777433897554022410]' />
+      </column>
+      <column caption='WTP - Warranty, Maintenance and Upgrade' datatype='real' name='[Calculation_777433897556885520]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([5-year warranty, free maintenance and installation, &amp; upgradeability])*[Calculation_777433897554022410]' />
+      </column>
+      <column caption='WTP - Above Average ' datatype='real' name='[Calculation_777433897557086225]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([A bit higher than market average])*[Calculation_777433897554022410]' />
+      </column>
+      <column caption='WTP - Proficient' datatype='real' name='[Calculation_777433897557430290]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Very proficient and have good communication skills])*[Calculation_777433897554022410]' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='partworths.csv' datatype='table' name='[__tableau_internal_object_id__].[partworths.csv_5093A473FB12489F955245FEDF6F9FC8]' role='measure' type='quantitative' />
+      <column caption='Intercept' datatype='real' name='[intercept]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='partworths.csv' id='partworths.csv_5093A473FB12489F955245FEDF6F9FC8'>
+            <properties context=''>
+              <relation connection='textscan.0gvzyqg08jseth1cs5rt9075x7ws' name='partworths.csv' table='[partworths#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='real' name='intercept' ordinal='0' />
+                  <column datatype='integer' name='0% CO2 reduction' ordinal='1' />
+                  <column datatype='real' name='30% CO2 reduction' ordinal='2' />
+                  <column datatype='real' name='50% CO2 reduction' ordinal='3' />
+                  <column datatype='integer' name='14 days' ordinal='4' />
+                  <column datatype='real' name='21 days' ordinal='5' />
+                  <column datatype='real' name='30 days' ordinal='6' />
+                  <column datatype='integer' name='5-year warranty' ordinal='7' />
+                  <column datatype='real' name='5-year warranty &amp; free maintenance' ordinal='8' />
+                  <column datatype='real' name='5-year warranty, free maintenance and installation, &amp; upgradeability' ordinal='9' />
+                  <column datatype='integer' name='1000 GBP' ordinal='10' />
+                  <column datatype='real' name='1200 GBP' ordinal='11' />
+                  <column datatype='real' name='1500 GBP' ordinal='12' />
+                  <column datatype='integer' name='Market average' ordinal='13' />
+                  <column datatype='real' name='A bit higher than market average' ordinal='14' />
+                  <column datatype='integer' name='Not very proficient and poor communication' ordinal='15' />
+                  <column datatype='real' name='Very proficient and have good communication skills' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Attributes Part-Worths</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='partworths' name='federated.0q0w2ls0sjvh6517kpwbj07cerpl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0q0w2ls0sjvh6517kpwbj07cerpl'>
+            <column caption='1200 Gbp' datatype='real' name='[1200 GBP]' role='measure' type='quantitative' />
+            <column caption='1500 Gbp' datatype='real' name='[1500 GBP]' role='measure' type='quantitative' />
+            <column caption='21 Days' datatype='real' name='[21 days]' role='measure' type='quantitative' />
+            <column caption='30 Days' datatype='real' name='[30 days]' role='measure' type='quantitative' />
+            <column datatype='real' name='[30% CO2 reduction]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty &amp; Free Maintenance' datatype='real' name='[5-year warranty &amp; free maintenance]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty, Free Maintenance And Installation, &amp; Upgradeability' datatype='real' name='[5-year warranty, free maintenance and installation, &amp; upgradeability]' role='measure' type='quantitative' />
+            <column datatype='real' name='[50% CO2 reduction]' role='measure' type='quantitative' />
+            <column datatype='real' name='[A bit higher than market average]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Very proficient and have good communication skills]' role='measure' type='quantitative' />
+            <column-instance column='[1200 GBP]' derivation='Avg' name='[avg:1200 GBP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1500 GBP]' derivation='Avg' name='[avg:1500 GBP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[21 days]' derivation='Avg' name='[avg:21 days:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[30 days]' derivation='Avg' name='[avg:30 days:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[30% CO2 reduction]' derivation='Avg' name='[avg:30% CO2 reduction:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[5-year warranty &amp; free maintenance]' derivation='Avg' name='[avg:5-year warranty &amp; free maintenance:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[5-year warranty, free maintenance and installation, &amp; upgradeability]' derivation='Avg' name='[avg:5-year warranty, free maintenance and installation, &amp; upgradeability:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[50% CO2 reduction]' derivation='Avg' name='[avg:50% CO2 reduction:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A bit higher than market average]' derivation='Avg' name='[avg:A bit higher than market average:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Very proficient and have good communication skills]' derivation='Avg' name='[avg:Very proficient and have good communication skills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[intercept]' derivation='Avg' name='[avg:intercept:qk]' pivot='key' type='quantitative' />
+            <column caption='Intercept' datatype='real' name='[intercept]' role='measure' type='quantitative' />
+            <column-instance column='[1200 GBP]' derivation='Sum' name='[sum:1200 GBP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1500 GBP]' derivation='Sum' name='[sum:1500 GBP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[21 days]' derivation='Sum' name='[sum:21 days:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[30 days]' derivation='Sum' name='[sum:30 days:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[30% CO2 reduction]' derivation='Sum' name='[sum:30% CO2 reduction:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[5-year warranty &amp; free maintenance]' derivation='Sum' name='[sum:5-year warranty &amp; free maintenance:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[5-year warranty, free maintenance and installation, &amp; upgradeability]' derivation='Sum' name='[sum:5-year warranty, free maintenance and installation, &amp; upgradeability:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[50% CO2 reduction]' derivation='Sum' name='[sum:50% CO2 reduction:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A bit higher than market average]' derivation='Sum' name='[sum:A bit higher than market average:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Very proficient and have good communication skills]' derivation='Sum' name='[sum:Very proficient and have good communication skills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[intercept]' derivation='Sum' name='[sum:intercept:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:intercept:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:30\% CO2 reduction:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:50\% CO2 reduction:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:21 days:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:30 days:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:5-year warranty &amp; free maintenance:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:5-year warranty, free maintenance and installation, &amp; upgradeability:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:1200 GBP:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:1500 GBP:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:A bit higher than market average:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:Very proficient and have good communication skills:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:intercept:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:30\% CO2 reduction:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:50\% CO2 reduction:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:21 days:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:30 days:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:5-year warranty &amp; free maintenance:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:5-year warranty, free maintenance and installation, &amp; upgradeability:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:1200 GBP:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:1500 GBP:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:A bit higher than market average:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[sum:Very proficient and have good communication skills:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</rows>
+        <cols>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{8A4B8719-D702-4DAB-AA0B-5818146DB52E}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Attribute Importance</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='partworths' name='federated.0q0w2ls0sjvh6517kpwbj07cerpl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0q0w2ls0sjvh6517kpwbj07cerpl'>
+            <column datatype='integer' name='[0% CO2 reduction]' role='measure' type='quantitative' />
+            <column caption='1000 Gbp' datatype='integer' name='[1000 GBP]' role='measure' type='quantitative' />
+            <column caption='1200 Gbp' datatype='real' name='[1200 GBP]' role='measure' type='quantitative' />
+            <column caption='14 Days' datatype='integer' name='[14 days]' role='measure' type='quantitative' />
+            <column caption='1500 Gbp' datatype='real' name='[1500 GBP]' role='measure' type='quantitative' />
+            <column caption='21 Days' datatype='real' name='[21 days]' role='measure' type='quantitative' />
+            <column caption='30 Days' datatype='real' name='[30 days]' role='measure' type='quantitative' />
+            <column datatype='real' name='[30% CO2 reduction]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty &amp; Free Maintenance' datatype='real' name='[5-year warranty &amp; free maintenance]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty, Free Maintenance And Installation, &amp; Upgradeability' datatype='real' name='[5-year warranty, free maintenance and installation, &amp; upgradeability]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty' datatype='integer' name='[5-year warranty]' role='measure' type='quantitative' />
+            <column datatype='real' name='[50% CO2 reduction]' role='measure' type='quantitative' />
+            <column datatype='real' name='[A bit higher than market average]' role='measure' type='quantitative' />
+            <column caption='Environment' datatype='real' name='[Calculation_438538025583271936]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([0% CO2 reduction], MAX([30% CO2 reduction],[50% CO2 reduction])) - MIN([0% CO2 reduction],MIN([30% CO2 reduction], [50% CO2 reduction]))' />
+            </column>
+            <column caption='Delivery Time' datatype='real' name='[Calculation_438538025584668673]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([14 days], MAX([21 days],[30 days])) - MIN([14 days],MIN([21 days],[30 days]))' />
+            </column>
+            <column caption='Service Level' datatype='real' name='[Calculation_777433897548447744]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([5-year warranty], MAX([5-year warranty &amp; free maintenance],[5-year warranty, free maintenance and installation, &amp; upgradeability])) - MIN([5-year warranty],MIN([5-year warranty &amp; free maintenance],[5-year warranty, free maintenance and installation, &amp; upgradeability]))' />
+            </column>
+            <column caption='Price' datatype='real' name='[Calculation_777433897548791809]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([1000 GBP], MAX([1200 GBP],[1500 GBP])) - MIN([1000 GBP],MIN([1200 GBP],[1500 GBP]))' />
+            </column>
+            <column caption='Quality of Materials' datatype='real' name='[Calculation_777433897549086722]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([Market average], [A bit higher than market average]) - MIN([Market average], [A bit higher than market average])' />
+            </column>
+            <column caption='Market Proficiency' datatype='real' name='[Calculation_777433897549393923]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([Not very proficient and poor communication], [Very proficient and have good communication skills]) - MIN([Not very proficient and poor communication], [Very proficient and have good communication skills])' />
+            </column>
+            <column datatype='integer' name='[Market average]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Not very proficient and poor communication]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Very proficient and have good communication skills]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_438538025583271936]' derivation='Avg' name='[avg:Calculation_438538025583271936:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_438538025584668673]' derivation='Avg' name='[avg:Calculation_438538025584668673:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897548447744]' derivation='Avg' name='[avg:Calculation_777433897548447744:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897548791809]' derivation='Avg' name='[avg:Calculation_777433897548791809:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897549086722]' derivation='Avg' name='[avg:Calculation_777433897549086722:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897549393923]' derivation='Avg' name='[avg:Calculation_777433897549393923:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:Calculation_438538025584668673:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:Calculation_438538025583271936:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:Calculation_777433897549393923:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:Calculation_777433897548791809:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:Calculation_777433897549086722:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[avg:Calculation_777433897548447744:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</rows>
+        <cols>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{9055006A-088E-4FEB-A601-52E942752016}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>% Average Attribute Importance</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='partworths' name='federated.0q0w2ls0sjvh6517kpwbj07cerpl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0q0w2ls0sjvh6517kpwbj07cerpl'>
+            <column datatype='integer' name='[0% CO2 reduction]' role='measure' type='quantitative' />
+            <column caption='1000 Gbp' datatype='integer' name='[1000 GBP]' role='measure' type='quantitative' />
+            <column caption='1200 Gbp' datatype='real' name='[1200 GBP]' role='measure' type='quantitative' />
+            <column caption='14 Days' datatype='integer' name='[14 days]' role='measure' type='quantitative' />
+            <column caption='1500 Gbp' datatype='real' name='[1500 GBP]' role='measure' type='quantitative' />
+            <column caption='21 Days' datatype='real' name='[21 days]' role='measure' type='quantitative' />
+            <column caption='30 Days' datatype='real' name='[30 days]' role='measure' type='quantitative' />
+            <column datatype='real' name='[30% CO2 reduction]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty &amp; Free Maintenance' datatype='real' name='[5-year warranty &amp; free maintenance]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty, Free Maintenance And Installation, &amp; Upgradeability' datatype='real' name='[5-year warranty, free maintenance and installation, &amp; upgradeability]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty' datatype='integer' name='[5-year warranty]' role='measure' type='quantitative' />
+            <column datatype='real' name='[50% CO2 reduction]' role='measure' type='quantitative' />
+            <column datatype='real' name='[A bit higher than market average]' role='measure' type='quantitative' />
+            <column caption='Environment' datatype='real' name='[Calculation_438538025583271936]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([0% CO2 reduction], MAX([30% CO2 reduction],[50% CO2 reduction])) - MIN([0% CO2 reduction],MIN([30% CO2 reduction], [50% CO2 reduction]))' />
+            </column>
+            <column caption='Delivery Time' datatype='real' name='[Calculation_438538025584668673]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([14 days], MAX([21 days],[30 days])) - MIN([14 days],MIN([21 days],[30 days]))' />
+            </column>
+            <column caption='Service Level' datatype='real' name='[Calculation_777433897548447744]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([5-year warranty], MAX([5-year warranty &amp; free maintenance],[5-year warranty, free maintenance and installation, &amp; upgradeability])) - MIN([5-year warranty],MIN([5-year warranty &amp; free maintenance],[5-year warranty, free maintenance and installation, &amp; upgradeability]))' />
+            </column>
+            <column caption='Price' datatype='real' name='[Calculation_777433897548791809]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([1000 GBP], MAX([1200 GBP],[1500 GBP])) - MIN([1000 GBP],MIN([1200 GBP],[1500 GBP]))' />
+            </column>
+            <column caption='Quality of Materials' datatype='real' name='[Calculation_777433897549086722]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([Market average], [A bit higher than market average]) - MIN([Market average], [A bit higher than market average])' />
+            </column>
+            <column caption='Market Proficiency' datatype='real' name='[Calculation_777433897549393923]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([Not very proficient and poor communication], [Very proficient and have good communication skills]) - MIN([Not very proficient and poor communication], [Very proficient and have good communication skills])' />
+            </column>
+            <column caption='Environment %' datatype='real' name='[Calculation_777433897551224836]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_438538025583271936])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+ AVG([Calculation_777433897549393923]))' />
+            </column>
+            <column caption='Delivery Time %' datatype='real' name='[Calculation_777433897551855621]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_438538025584668673])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+            </column>
+            <column caption='Service Level %' datatype='real' name='[Calculation_777433897552023558]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_777433897548447744])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+            </column>
+            <column caption='Price %' datatype='real' name='[Calculation_777433897552224263]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_777433897548791809])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+            </column>
+            <column caption='Quality of Materials %' datatype='real' name='[Calculation_777433897552412680]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_777433897549086722])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+            </column>
+            <column caption='Market Proficiency %' datatype='real' name='[Calculation_777433897552617481]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_777433897549393923])/ (AVG([Calculation_438538025583271936]) + AVG([Calculation_438538025584668673])+ AVG([Calculation_777433897548447744])+AVG([Calculation_777433897548791809])+ AVG([Calculation_777433897549086722])+AVG([Calculation_777433897549393923]))' />
+            </column>
+            <column datatype='integer' name='[Market average]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Not very proficient and poor communication]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Very proficient and have good communication skills]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_777433897551224836]' derivation='User' name='[usr:Calculation_777433897551224836:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897551855621]' derivation='User' name='[usr:Calculation_777433897551855621:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897552023558]' derivation='User' name='[usr:Calculation_777433897552023558:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897552224263]' derivation='User' name='[usr:Calculation_777433897552224263:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897552412680]' derivation='User' name='[usr:Calculation_777433897552412680:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897552617481]' derivation='User' name='[usr:Calculation_777433897552617481:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897551855621:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897551224836:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897552617481:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897552224263:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897552412680:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897552023558:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897551855621:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897551224836:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897552617481:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897552224263:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897552412680:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897552023558:qk]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</rows>
+        <cols>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{85B84814-7D4D-4D70-88BA-96690102953A}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Willingness to Pay</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='partworths' name='federated.0q0w2ls0sjvh6517kpwbj07cerpl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0q0w2ls0sjvh6517kpwbj07cerpl'>
+            <column caption='1000 Gbp' datatype='integer' name='[1000 GBP]' role='measure' type='quantitative' />
+            <column caption='1500 Gbp' datatype='real' name='[1500 GBP]' role='measure' type='quantitative' />
+            <column caption='21 Days' datatype='real' name='[21 days]' role='measure' type='quantitative' />
+            <column caption='30 Days' datatype='real' name='[30 days]' role='measure' type='quantitative' />
+            <column datatype='real' name='[30% CO2 reduction]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty &amp; Free Maintenance' datatype='real' name='[5-year warranty &amp; free maintenance]' role='measure' type='quantitative' />
+            <column caption='5-Year Warranty, Free Maintenance And Installation, &amp; Upgradeability' datatype='real' name='[5-year warranty, free maintenance and installation, &amp; upgradeability]' role='measure' type='quantitative' />
+            <column datatype='real' name='[50% CO2 reduction]' role='measure' type='quantitative' />
+            <column datatype='real' name='[A bit higher than market average]' role='measure' type='quantitative' />
+            <column caption='Utility Change by $1' datatype='real' name='[Calculation_777433897554022410]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='500/(Avg([1000 GBP]) - Avg([1500 GBP]))' />
+            </column>
+            <column caption='WTP – 30%' datatype='real' name='[Calculation_777433897556099083]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([30% CO2 reduction])*[Calculation_777433897554022410]' />
+            </column>
+            <column caption='WTP - 50%' datatype='real' name='[Calculation_777433897556217868]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([50% CO2 reduction])*[Calculation_777433897554022410]' />
+            </column>
+            <column caption='WTP - 21' datatype='real' name='[Calculation_777433897556357133]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([21 days])*[Calculation_777433897554022410]' />
+            </column>
+            <column caption='WTP - 30' datatype='real' name='[Calculation_777433897556504590]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([30 days])*[Calculation_777433897554022410]' />
+            </column>
+            <column caption='WTP - Warranty and Maintenance' datatype='real' name='[Calculation_777433897556623375]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([5-year warranty &amp; free maintenance])*[Calculation_777433897554022410]' />
+            </column>
+            <column caption='WTP - Warranty, Maintenance and Upgrade' datatype='real' name='[Calculation_777433897556885520]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([5-year warranty, free maintenance and installation, &amp; upgradeability])*[Calculation_777433897554022410]' />
+            </column>
+            <column caption='WTP - Above Average ' datatype='real' name='[Calculation_777433897557086225]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([A bit higher than market average])*[Calculation_777433897554022410]' />
+            </column>
+            <column caption='WTP - Proficient' datatype='real' name='[Calculation_777433897557430290]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Very proficient and have good communication skills])*[Calculation_777433897554022410]' />
+            </column>
+            <column datatype='real' name='[Very proficient and have good communication skills]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_777433897556099083]' derivation='User' name='[usr:Calculation_777433897556099083:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897556217868]' derivation='User' name='[usr:Calculation_777433897556217868:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897556357133]' derivation='User' name='[usr:Calculation_777433897556357133:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897556504590]' derivation='User' name='[usr:Calculation_777433897556504590:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897556623375]' derivation='User' name='[usr:Calculation_777433897556623375:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897556885520]' derivation='User' name='[usr:Calculation_777433897556885520:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897557086225]' derivation='User' name='[usr:Calculation_777433897557086225:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_777433897557430290]' derivation='User' name='[usr:Calculation_777433897557430290:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556099083:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556217868:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556357133:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556504590:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556623375:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556885520:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897557086225:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897557430290:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556099083:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556217868:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556357133:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556504590:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556623375:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897556885520:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897557086225:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[usr:Calculation_777433897557430290:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</rows>
+        <cols>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{410CB690-6621-48EE-9607-72A463AAA0ED}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{12231C1F-EA5F-48B2-8B01-6840EBE567E4}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{21A9DF68-5F40-43ED-9808-255A3F2816FB}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D041B047-51E5-43D5-B0A8-1871D8889A37}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <axis>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[Multiple Values]</axis>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0q0w2ls0sjvh6517kpwbj07cerpl].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D3D02FB6-3571-4E70-A0B0-3163EBFF615D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      ILQmARBa+18vHaQTzBBBWQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
